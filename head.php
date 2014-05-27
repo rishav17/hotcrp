@@ -21,7 +21,7 @@ if (!isset($_REQUEST["p"]) && !isset($_REQUEST["paperId"])
     $_REQUEST["p"] = substr(Navigation::path(), 1);
 
 
-// header
+// head
 function confHeader() {
     global $paperId, $newPaper, $prow, $paperTable, $Conf, $Error;
     if ($paperTable)
